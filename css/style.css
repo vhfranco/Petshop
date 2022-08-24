@@ -1,0 +1,291 @@
+main
+{
+    font-family: 'Baloo 2', cursive;
+}
+
+.BasePrincipal
+{
+    background-color: white;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    position: absolute;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#conteudoToolbar .busca
+{
+    width: 35vh;
+    height: 5vh;
+
+    right: 0 !important;
+
+    padding: 1.25vh !important;
+    border-radius: 1vw;
+
+    font-size: 5vh;
+
+    color: white;
+
+    background-color: #eee;
+}
+
+#conteudoToolbar img
+{
+    width: 7.5vh;
+    height: 7.5vh;
+
+    padding: 1.25vh;
+
+    font-size: 5vh;
+
+    color: white;
+}
+
+
+#conteudoToolbar a
+{
+    padding: 1.25vh;
+    font-size: 5vh;
+
+    color: white;
+}
+
+.conteudoPrincipal ul
+{
+    display: none;
+}
+
+#conteudoToolbar
+{
+    width: 100vw;
+    height: 10vh;
+    background-color: #9FE2BF;
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    font-weight: bold;
+}
+
+#teste
+{
+    background-color: #eee;
+    
+    width: 50vw;
+    height: 100vh;
+
+    position: absolute;
+
+    top: 100vh;
+    /* bottom: 0; */
+    /* left: 0; */
+    right: 0;
+}
+
+.card
+{
+    padding-top: 5vh;
+    padding-left: 5vw;
+
+    transition: all 0.5s;
+}
+
+.card a
+{
+    color: #9FE2BF;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2.5vh;
+
+    font-weight: bold;
+}
+
+.conteudoCard
+{
+    background-color: #fff;
+    width: 7.5vw;
+    height: 30vh;
+
+    gap: 10vw;
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    
+    border-radius: 4vh 1vh 4vh 1vh;
+}
+
+.btnCard
+{
+    /* margin-top: 15vh; */
+
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnCard button
+{
+    width: 10vw !important;
+    height: 5vh;
+
+    position: absolute;
+
+    border: none;
+
+    display: flex;
+
+    background-color: #9FE2BF;
+    border-radius: 1vh 4vh 1vh 4vh;
+    
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+    font-size: 2.5vh;
+
+    transition: all 0.5s;
+}
+
+.btnCard button:hover
+{
+    transition: all 0.5s;
+}
+
+.conteudoRacao
+{
+    /* display: flex;
+    
+    justify-content: center;
+    align-items: center; */
+
+    background-color: #fff;
+
+    border-radius: 4vh 1vh 4vh 1vh;
+
+    padding: 2.5vw;
+
+    transition: all 0.5s;
+
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+
+    height: 40vh !important;
+
+    text-align: center;
+}
+
+.conteudoRacao img
+{
+    width: 10vw;
+    height: 10vw;
+
+    background-color: #9FE2BF;
+    border-radius: 15vh 15vh;
+}
+
+.card .conteudoRacao:hover
+{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.conteudoItens
+{
+    /* display: flex;
+    
+    justify-content: center;
+    align-items: center; */
+
+    background-color: #fff;
+
+    border-radius: 4vh 1vh 4vh 1vh;
+
+    padding: 2.5vw;
+
+    transition: all 0.5s;
+
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+
+    height: 40vh !important;
+
+    text-align: center;
+}
+
+.conteudoItens img
+{
+    width: 10vw;
+    height: 10vw;
+
+    background-color: #9FE2BF;
+    border-radius: 15vh 15vh;
+    
+}
+
+.card .conteudoItens:hover
+{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.anuncios
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 2.5vw;
+    justify-content: center;
+}
+
+.anuncioL
+{
+    padding-top: 15vh;
+    padding-left: 5vw;
+}
+
+.conteudoAnuncioL
+{
+    background-color: #eee;
+    width: 55vw;
+    height: 25vh;
+    border-radius: 2.5vh;
+}
+
+.anuncioR
+{
+    padding-top: 15vh;
+    padding-right: 5vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudoAnuncioR
+{
+    background-color: #9FE2BF;
+    width: 22.5vw;
+    height: 25vh;
+    border-radius: 2.5vh;
+}
+
+.conteudoPrincipal
+{
+    right: 0;
+    left: 0;
+}
